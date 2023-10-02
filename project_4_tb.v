@@ -25,7 +25,7 @@ module project_4( );
     reg [3:0]B;
     wire [6:0]Display1;
     wire Couts;
-    project_4 uut(.A(A),.B(B),.Display1(Display1),.Couts(Couts));
+    project_3 uut(.A(A),.B(B),.Display1(Display1),.Couts(Couts));
     
     initial begin
         #10 A = 0; B = 0;
